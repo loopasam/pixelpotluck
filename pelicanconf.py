@@ -4,7 +4,7 @@ SITEURL = ''
 
 PATH = 'content'
 
-STATIC_PATHS = ['images']
+# STATIC_PATHS = ['images', 'themes/simple-pixelpotluck/static']
 
 
 TIMEZONE = 'Europe/Rome'
