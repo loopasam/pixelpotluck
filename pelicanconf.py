@@ -6,7 +6,6 @@ PATH = 'content'
 
 # STATIC_PATHS = ['images', 'themes/simple-pixelpotluck/static']
 
-
 TIMEZONE = 'Europe/Rome'
 
 DEFAULT_LANG = 'English'

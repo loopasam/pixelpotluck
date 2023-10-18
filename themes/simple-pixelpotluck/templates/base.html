@@ -68,12 +68,12 @@
     <!-- <h1><a href="{{ SITEURL }}/">{{ SITENAME }}{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
     </h1> -->
 
-    <div class="container text-center py-5">
+    <div class="container text-center py-1">
       <!-- Logo -->
       <img src="../images/logo.png" alt="Logo" class="img-fluid mb-2" style="max-width: 200px;">
 
       <!-- Text underneath the logo -->
-      <h1 class="mb-4 lucky">Pixel Potluck</h1>
+      <h1 class="mb-4 lucky text-primary">Pixel Potluck</h1>
 
       <!-- Nav pills for navigation -->
       <ul class="nav nav-pills justify-content-center">
@@ -108,7 +108,7 @@
 
   </header>
   <nav>
-    <ul>
+    <!-- <ul>
       {% for title, link in MENUITEMS %}
       <li><a href="{{ link }}">{{ title }}</a></li>
       {% endfor %}
@@ -122,7 +122,7 @@
         <li{% if cat==category %} class="active" {% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
           {% endfor %}
           {% endif %}
-    </ul>
+    </ul> -->
   </nav>
   <main>
     {% block content %}
