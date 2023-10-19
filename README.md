@@ -16,6 +16,7 @@ https://tiny-img.com/blog/best-image-size-for-website/
 # TODO
 
 - base.html
+- define structure of article, metadata
 - Favicon
 - Test article 1
 - Test article 2
@@ -29,3 +30,4 @@ https://tiny-img.com/blog/best-image-size-for-website/
 - Sitemap
 - Robots.txt
 - Images workflow
+- proper naming and sizing for images, including logo

@@ -1,5 +1,5 @@
 AUTHOR = 'loopasam'
-SITENAME = 'PixelPotluck'
+SITENAME = 'Pixel Potluck'
 SITEURL = ''
 
 PATH = 'content'
