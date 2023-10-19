@@ -3,6 +3,7 @@ title: Baba Ganoush
 image: babaganush.png
 tags:
   - Dip
+  - Sauce
 date: 2023-10-18
 summary: A delicious dip made from eggplant
 ingredients:

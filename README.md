@@ -1,6 +1,8 @@
 # Source code for PixelPotluck
 
 pelican content -s pelicanconf.py --autoreload --listen
+python -m pip install pelican-tag-cloud
+
 
 https://github.com/pelican-plugins/yaml-metadata
 

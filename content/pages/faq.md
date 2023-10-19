@@ -1,8 +1,8 @@
-Title: About
+Title: FAQ
 Date: 2022-01-01
 Category: Pages
-Tags: about
-Slug: about
+Tags: faq
+Slug: faq
 Author: Your Name
 Summary: A brief summary of the page content.
 
