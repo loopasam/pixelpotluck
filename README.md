@@ -24,6 +24,7 @@ https://tiny-img.com/blog/best-image-size-for-website/
 - Create 10 articles to test pagination
 - FAQ
 - Tags
+- Style text for tags and articles
 - RSS
 - Sitemap
 - Robots.txt

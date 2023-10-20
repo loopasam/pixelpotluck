@@ -29,33 +29,41 @@
     <div class="col-md-8 mx-auto">
       <div class="card border-5 border-white bg-light shadow-lg">
         <img src="../images/{{article.image}}" class="card-img-top img-fluid" alt="...">
-        <div class="card-body">
+        <div class="card-body text-open-sans">
           <header>
-            <h1 class="card-title lucky">
-              <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-                title="Permalink to {{ article.title|striptags }}">{{article.title }}</a>
-            </h1>
+            <h1 class="card-title text-courgette">{{article.title }}</h1>
           </header>
           <article class="card-text">
-            {{article.summary}}
-
-            <div class="row no-gutters">
+            <span class="text-courgette">{{article.summary}}</span>
+            <div class="mt-5 row no-gutters">
               <div class="col-md-6 border-end">
-                <h2>Ingredients</h2>
+                <h3>Ingredients</h3>
                 <ul>
                   {% for ingredient in article.ingredients %}
                   <li>{{ ingredient }}</li>
                   {% endfor %}
                 </ul>
+                <h3>Special Tools</h3>
+                <ul>
+                  {% for tool in article.tools %}
+                  <li>{{ tool }}</li>
+                  {% endfor %}
+                </ul>
 
               </div>
               <div class="col-md-6">
-                <h2>Steps</h2>
+                <h3>Instructions</h3>
                 <ol>
-                  {% for step in article.metadata.steps %}
+                  {% for step in article.steps %}
                   <li>{{ step }}</li>
                   {% endfor %}
                 </ol>
+                <h3>Notes</h3>
+                <ul>
+                  {% for note in article.notes %}
+                  <li>{{ note }}</li>
+                  {% endfor %}
+                </ul>
 
               </div>
             </div>
@@ -63,12 +71,11 @@
 
           </article>
         </div>
-        <div class="card-footer text-body-secondary">
+        <div class="card-footer border-5 border-white">
           {% if article.tags %}
-          <div class="tags">
-            Tags:
+          <div class="text-center my-2">
             {% for tag in article.tags %}
-            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+            <a class="btn btn-primary" href="{{ SITEURL }}/{{ tag.url }}" role="button">{{ tag }}</a>
             {% endfor %}
           </div>
           {% endif %}
