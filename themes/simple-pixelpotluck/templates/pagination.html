@@ -1,15 +1,19 @@
 {% if DEFAULT_PAGINATION %}
 {% set first_page = articles_paginator.page(1) %}
 {% set last_page = articles_paginator.page(articles_paginator.num_pages) %}
-<p class="paginator">
-    {% if articles_page.has_previous() %}
-        <a href="{{ SITEURL }}/{{ first_page.url }}">&#8647;</a>
-        <a href="{{ SITEURL }}/{{ articles_previous_page.url }}">&laquo;</a>
-    {% endif %}
-    Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}
-    {% if articles_page.has_next() %}
-        <a href="{{ SITEURL }}/{{ articles_next_page.url }}">&raquo;</a>
-        <a href="{{ SITEURL }}/{{ last_page.url }}">&#8649;</a>
-    {% endif %}
-</p>
+
+
+<nav class="mt-5">
+    <ul class="pagination justify-content-center">
+        <li class="page-item {% if not articles_page.has_previous() %}disabled{% endif %}">
+            <a class="page-link" href="{{ SITEURL }}/{{ articles_previous_page.url }}">Previous</a>
+        </li>
+        <li class="page-item"></li>
+        <li class="page-item disabled"><a class="page-link" href="#">{{ articles_page.number }} / {{ articles_paginator.num_pages }}</a></li>
+        <li class="page-item {% if not articles_page.has_next() %}disabled{% endif %}">
+            <a class="page-link" href="{{ SITEURL }}/{{ articles_next_page.url }}">Next</a>
+        </li>
+    </ul>
+</nav>
+
 {% endif %}

@@ -17,19 +17,17 @@ https://tiny-img.com/blog/best-image-size-for-website/
 
 # TODO
 
-- base.html
 - define structure of article, metadata
-- Favicon
 - Test article 1
 - Test article 2
+- Background image
 - Create 10 articles to test pagination
-- Tags has nav
-- Pages with about, etc.
-- Footer
-- Search
-- Comments
+- FAQ
+- Tags
 - RSS
 - Sitemap
 - Robots.txt
 - Images workflow
 - proper naming and sizing for images, including logo
+
+- Search
