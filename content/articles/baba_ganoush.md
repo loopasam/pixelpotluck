@@ -1,11 +1,13 @@
 ---
 title: Baba Ganoush
 image: babaganush.png
+description: A delicious dip made from eggplant
+servings: A large bowl, enough for 4 people
+time: Slow
 tags:
   - dip
   - sauce
 date: 2023-10-18
-summary: A delicious dip made from eggplant
 ingredients:
   - 2 roasted eggplants flesh
   - 1/4 cup tahini
@@ -20,8 +22,6 @@ ingredients:
 steps:
   - mix everything
   - serve with pita bread
-tools:
-  - blender
 notes:
   - You can keep it up to 2 weeks in the fridge
   - Delicious with pita bread

@@ -17,7 +17,17 @@ https://tiny-img.com/blog/best-image-size-for-website/
 
 # TODO
 
-- define structure of article, metadata
+- define structure of article, metadata:
+- Title
+- Image
+- Description
+- Time
+- Servings
+- Ingredients
+- Instructions
+- Notes
+- Tags
+
 - Test article 1
 - Test article 2
 - Background image
