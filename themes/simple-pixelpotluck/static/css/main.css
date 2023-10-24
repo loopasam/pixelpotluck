@@ -24,3 +24,14 @@
     --bs-primary: #ce9c10;
 }
 
+.custom-emoji {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    background-size: cover;
+    vertical-align: text-top;
+}
+
+.emoji-example {
+    background-image: url('../images/basket.png');
+}
