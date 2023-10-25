@@ -35,30 +35,35 @@
           </header>
           <article class="card-text">
             <p class="text-courgette">{{article.description}}</p>
-            <p>Time: {{ article.time }}</p>
-            <p>Servings: {{ article.servings }}</p>
+            <p class="d-flex align-items-center">
+              <img class="me-2" src="../images/basket.png" style="height: 1em">Time: {{ article.time }}
+            </p>
+            <p class="d-flex align-items-center">
+              <img class="me-2" src="../images/basket.png" style="height: 1em">Servings: {{ article.servings }}
+            </p>
             <div class="mt-5 row no-gutters">
               <div class="col-md-6 border-end">
-                <h3 style="display: flex; align-items: center;">
-                  <img class="me-2" src="../images/basket.png" style="height: 1.2em">Ingredients
+                <h3 class="d-inline-flex align-items-center">
+                  <img class="me-2" src="../images/basket.png" style="height: 1em">Ingredients
                 </h3>
                 <ul>
                   {% for ingredient in article.ingredients %}
-                  <li class="align-items-center mb-2">
-                    <img src="../images/ingredients/{{ ingredient.image}}" class="me-2" style="height: 1.2em">
-                    <span>{{ ingredient.text }}</span>
-                </li>
+                  <li>{{ ingredient }}</li>
                   {% endfor %}
                 </ul>
               </div>
               <div class="col-md-6">
-                <h3>Instructions</h3>
+                <h3 class="d-inline-flex align-items-center">
+                  <img class="me-2" src="../images/basket.png" style="height: 1.2em">Instructions
+                </h3>
                 <ol>
                   {% for step in article.steps %}
                   <li>{{ step }}</li>
                   {% endfor %}
                 </ol>
-                <h3>Notes</h3>
+                <h3 class="d-inline-flex align-items-center">
+                  <img class="me-2" src="../images/basket.png" style="height: 1.2em">Notes
+                </h3>
                 <ul>
                   {% for note in article.notes %}
                   <li>{{ note }}</li>
@@ -67,15 +72,15 @@
 
               </div>
             </div>
-
-
           </article>
         </div>
         <div class="card-footer border-5 border-white">
           {% if article.tags %}
           <div class="text-center my-2">
             {% for tag in article.tags %}
-            <a class="btn btn-primary" href="{{ SITEURL }}/{{ tag.url }}" role="button">{{ tag }}</a>
+            <a class="btn btn-outline-primary d-inline-flex align-items-center" href="{{ SITEURL }}/{{ tag.url }}"
+              role="button">
+              <img class="me-2" src="../images/basket.png" style="height: 1.2em">{{ tag }}</a>
             {% endfor %}
           </div>
           {% endif %}

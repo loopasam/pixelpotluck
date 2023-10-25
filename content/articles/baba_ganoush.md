@@ -9,8 +9,7 @@ tags:
   - sauce
 date: 2023-10-18
 ingredients:
-  - text: 2 roasted eggplants flesh
-    image: eggplant.png
+  - 2 roasted eggplants flesh
   - 1/4 cup tahini
   - 1 lemon
   - 1 garlic
@@ -25,9 +24,7 @@ steps:
   - serve with pita bread
 notes:
   - You can keep it up to 2 weeks in the fridge
-  - "Delicious with pita <img class='me-2' src='../images/basket.png' style='height: 1.2em'> bread"
-  - "You can add some red pepper flake for <span class='custom-emoji emoji-example'></span> a spicy version"
-  - "You can add some sumac <span class='custom-emoji emoji-example'></span> for a more sour version"
-  - "You can add some olive oil <span class='custom-emoji emoji-example'></span> on top"
+  - Delicious with pita bread
+  - You can add some sumac for a more sour version
   - You can add some parsley on top
 ---
