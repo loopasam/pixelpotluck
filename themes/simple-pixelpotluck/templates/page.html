@@ -5,24 +5,33 @@
 
 {% block head %}
   {{ super() }}
-
-  {% import 'translations.html' as translations with context %}
-  {% if translations.entry_hreflang(page) %}
-    {{ translations.entry_hreflang(page) }}
-  {% endif %}
 {% endblock %}
 
 {% block content %}
-  <h1>PAGE</h1>
-    <h1>{{ page.title }}</h1>
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
 
-    {{ page.content }}
 
-    {% if page.modified %}
-        <p>
-        Last updated: {{ page.locale_modified }}
-        </p>
-    {% endif %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 mx-auto">
+      <div class="card border-5 border-white bg-light shadow-lg">
+        <img src="../images/babaganush.png" class="card-img-top img-fluid" alt="...">
+        <div class="card-body text-open-sans">
+          <header>
+            <h1 class="card-title text-courgette">{{ page.title }}</h1>
+          </header>
+          <article class="card-text text-courgette">
+            {{ page.summary }}
+            {{ page.content }}
+            <p class="d-flex align-items-center">
+              <img class="me-2" src="../images/basket.png" style="height: 1em">Time: foo
+            </p>
+
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 {% endblock %}

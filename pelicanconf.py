@@ -12,6 +12,9 @@ DEFAULT_LANG = 'English'
 
 THEME = "themes/simple-pixelpotluck"
 
+TAG_CLOUD_STEPS = 4
+TAG_CLOUD_MAX_ITEMS = 10
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

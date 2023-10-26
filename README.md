@@ -1,6 +1,7 @@
 # Source code for PixelPotluck
 
-pelican content -s pelicanconf.py --autoreload --listen
+pelican content -s pelicanconf.py --autoreload --listen --debug
+
 python -m pip install pelican-tag-cloud
 
 
@@ -17,28 +18,21 @@ https://tiny-img.com/blog/best-image-size-for-website/
 
 # TODO
 
-- define structure of article, metadata:
-- Title
-- Image
-- Description
-- Time
-- Servings
-- Ingredients
-- Instructions
-- Notes
 - Tags
-
-- Test article 1
-- Test article 2
-- Background image
-- Create 10 articles to test pagination
-- FAQ
-- Tags
+- Logos for all sections of articles and tags.
+- Images workflow
+- proper naming and sizing for images, including logo
+- Create 4 articles to test pagination
+- define structure of article, metadata: Time wording
 - Style text for tags and articles
+- Background image
+
+
+- FAQ: Write the page and decide on the content
+
+
+- Reference articles types
+- Search
 - RSS
 - Sitemap
 - Robots.txt
-- Images workflow
-- proper naming and sizing for images, including logo
-
-- Search

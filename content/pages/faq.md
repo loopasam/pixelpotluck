@@ -6,4 +6,5 @@ Slug: faq
 Author: Your Name
 Summary: A brief summary of the page content.
 
-Foo bar about the website.
+Foo bar about the website. You have questions
+about the website? Here are some answers.

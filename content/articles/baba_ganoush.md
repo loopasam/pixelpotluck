@@ -1,5 +1,6 @@
 ---
 title: Baba Ganoush
+slug: baba-ganoush
 image: babaganush.png
 description: A delicious dip made from eggplant
 servings: A large bowl, enough for 4 people
