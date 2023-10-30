@@ -35,3 +35,23 @@
 .emoji-example {
     background-image: url('../images/basket.png');
 }
+
+ul.tagcloud li {
+    display: inline-block;
+}
+
+li.tag-1 {
+    font-size: 400%;
+}
+
+li.tag-2 {
+    font-size: 300%;
+}
+
+li.tag-3 {
+    font-size: 200%;
+}
+
+li.tag-4 {
+    font-size: 150%;
+}
