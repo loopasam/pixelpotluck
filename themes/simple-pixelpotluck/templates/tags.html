@@ -4,18 +4,22 @@
 
 {% block content %}
 
-<h1>Tags for {{ SITENAME }}</h1>
-<ul class="tagcloud">
-    {% for tag in tag_cloud %}
-        <li class="tag-{{ tag.1 }}">
-            <a href="{{ SITEURL }}/{{ tag.0.url }}">
-            {{ tag.0 }}
-                {% if TAG_CLOUD_BADGE %}
-                    <span class="badge">{{ tag.2 }}</span>
-                {% endif %}
-            </a>
-        </li>
-    {% endfor %}
-</ul>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <ul class="tagcloud">
+                {% for tag, articles in tags|sort %}
+                <li>
+                    <a class="btn btn-outline-primary d-inline-flex align-items-center"
+                        href="{{ SITEURL }}/{{ tag.url }}" role="button">
+                        <img class="me-2" src="../images/basket.png" style="height: 1.2em">{{ tag }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div>
+</div>
 
 {% endblock %}
