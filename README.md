@@ -18,13 +18,11 @@ https://tiny-img.com/blog/best-image-size-for-website/
 
 # TODO
 
-- Logos for all sections of articles and tags
 - Images workflow
 - proper naming and sizing for images, including logo
 - Create 4 articles to test pagination
 - define structure of article, metadata: Time wording
 - Style text for tags and articles
-- Background image
 - optimize logos and images
 
 

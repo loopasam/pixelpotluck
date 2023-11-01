@@ -3,5 +3,7 @@
 {% block title %}{{ SITENAME }} - {{ tag }} tag{% endblock %}
 
 {% block content_title %}
-<h1>Articles tagged with {{ tag }}</h1>
+<h1 class="text-center mb-4" href="{{ SITEURL }}/{{ tag.url }}">
+<img class="me-2 icon" src="../images/tags/{{ tag }}.png">{{ tag }}</h1>
 {% endblock %}
+
