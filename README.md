@@ -41,3 +41,4 @@ https://tiny-img.com/blog/best-image-size-for-website/
 - Create the article template from existing article
 - Generate the images using DALL-E 3: I need 4 images for a baba ganush recipe with ratio 3:2. The style is pixel art and the background should be filled and not left empty
 - https://tinypng.com/
+- 1280 x 720 pixels
