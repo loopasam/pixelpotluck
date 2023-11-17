@@ -13,19 +13,18 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8 mx-auto">
-      <div class="card border-5 border-white bg-light shadow-lg">
-        <img src="../images/babaganush.png" class="card-img-top img-fluid" alt="...">
-        <div class="card-body text-open-sans">
+      <div class="card border-5 border-white bg-light shadow-lg mb-3">
+        <img src="../images/{{page.image}}" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
           <header>
-            <h1 class="card-title text-courgette">{{ page.title }}</h1>
+            <h1 class="card-title text-courgette">{{page.title }}</h1>
           </header>
-          <article class="card-text text-courgette">
-            {{ page.summary }}
-            {{ page.content }}
-            <p class="d-flex align-items-center">
-              <img class="me-2" src="../images/basket.png" style="height: 1em">Time: foo
-            </p>
-
+          <article class="card-text">
+            <p class="text-courgette">{{page.description}}</p>
+            <div class="mt-3 row no-gutters">
+                {{page.content}}
+                {{page.summary}}
+              </div>
           </article>
         </div>
       </div>

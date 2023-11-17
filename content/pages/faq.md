@@ -1,9 +1,7 @@
 Title: FAQ
-Date: 2022-01-01
-Category: Pages
-Tags: faq
+Date: 2023-11-17
 Slug: faq
-Author: Your Name
+image: faq.png
 Summary: A brief summary of the page content.
 
 Foo bar about the website. You have questions

@@ -1,13 +1,12 @@
 ---
 title: Baba Ganoush
 slug: baba-ganoush
-image: babaganush4.png
-description: A delicious dip made from eggplant
+image: babaganush.png
+description: Baba Ganoush, a delightful Middle Eastern dip, is renowned for its creamy texture and smoky flavor.
 servings: A large bowl, enough for 4 people
 planning: "Yes"
 tags:
   - dip
-  - sauce
 date: 2023-10-18
 ingredients:
   - 2 roasted eggplants flesh

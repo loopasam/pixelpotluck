@@ -20,12 +20,8 @@ https://tiny-img.com/blog/best-image-size-for-website/
 
 # TODO
 
-- proper naming, sizing and optimization for logo and icons
-- Create 4 articles to test pagination
-
-
 - FAQ: Write the page and decide on the content
-
+- Deploy
 
 - Reference articles types
 - Search
