@@ -27,16 +27,16 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8 mx-auto">
-      <div class="card border-5 border-white bg-light shadow-lg">
+      <div class="card border-5 border-white bg-light shadow-lg mb-3">
         <img src="../images/{{article.image}}" class="card-img-top img-fluid" alt="...">
-        <div class="card-body text-open-sans">
+        <div class="card-body">
           <header>
             <h1 class="card-title text-courgette">{{article.title }}</h1>
           </header>
           <article class="card-text">
             <p class="text-courgette">{{article.description}}</p>
             <p class="d-flex align-items-center">
-              <img class="me-2 icon" src="../images/icons/chronometer.png">Planning needed: {{ article.planning }}
+              <img class="me-2 icon" src="../images/icons/chronometer2.png">Planning needed: {{ article.planning }}
             </p>
             <p class="d-flex align-items-center">
               <img class="me-2 icon" src="../images/icons/plate.png">Servings: {{ article.servings }}
@@ -69,7 +69,6 @@
                   <li>{{ note }}</li>
                   {% endfor %}
                 </ul>
-
               </div>
             </div>
           </article>
@@ -78,7 +77,7 @@
           {% if article.tags %}
           <div class="text-center my-2">
             {% for tag in article.tags %}
-            <a class="btn btn-outline-primary d-inline-flex align-items-center" href="{{ SITEURL }}/{{ tag.url }}"
+            <a class="btn btn-outline-secondary d-inline-flex align-items-center" href="{{ SITEURL }}/{{ tag.url }}"
               role="button">
               <img class="me-2 icon" src="../images/tags/{{ tag }}.png">{{ tag }}</a>
             {% endfor %}

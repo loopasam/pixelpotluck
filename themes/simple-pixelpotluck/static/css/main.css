@@ -20,32 +20,24 @@
     font-family: 'Courgette', cursive;
 }
 
-:root {
+/* :root {
     --bs-primary: #ce9c10;
-}
-
-.custom-emoji {
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    background-size: cover;
-    vertical-align: text-top;
-}
-
-.emoji-example {
-    background-image: url('../images/basket.png');
-}
+    --bs-link-color: #ce9c10;
+    --bs-link-hover-color: #ce1010;
+    --bs-link-color-rgb: #ce9c10;
+} */
 
 ul.tagcloud li {
     display: inline-block;
 }
 
 .icon {
-    height: 1em;
+    height: 2em;
 }
 
 body {
-    background-image: url('../images/bg.png');
+    /* background-image: url('../images/bg.png'); */
+    background-color: #FAFAFA;
     background-repeat: repeat;
     background-size: auto;
 }

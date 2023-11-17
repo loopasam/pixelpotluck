@@ -66,26 +66,26 @@
   {% endblock head %}
 </head>
 
-<body>
+<body class="text-open-sans">
   <header>
     <div class="container text-center py-1">
       <a href="{{ SITEURL }}/">
         <img src="../images/logo.png" alt="Logo" class="img-fluid my-2" style="max-width: 200px;">
       </a>
 
-      <h1 class="mb-2 text-courgette"><a class="text-decoration-none" href="{{ SITEURL }}/">{{ SITENAME }}{% if
+      <h1 class="mb-2 text-courgette"><a class="text-decoration-none link-secondary" href="{{ SITEURL }}/">{{ SITENAME }}{% if
           SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
 
     </div>
   </header>
   <nav>
     <!-- Nav pills for navigation -->
-    <ul class="nav nav-pills justify-content-center mb-3 text-open-sans" style="font-size: 1.2rem;">
+    <ul class="nav nav-pills justify-content-center mb-3" style="font-size: 1.2rem;">
       <li class="nav-item">
-        <a class="nav-link" href="{{ SITEURL }}/tags">Tags</a>
+        <a class="nav-link link-secondary" href="{{ SITEURL }}/tags">Tags</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{ SITEURL }}/pages/faq">FAQ</a>
+        <a class="nav-link link-secondary" href="{{ SITEURL }}/pages/faq">FAQ</a>
       </li>
     </ul>
 

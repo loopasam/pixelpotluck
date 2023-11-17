@@ -11,7 +11,7 @@
             <ul class="tagcloud">
                 {% for tag, articles in tags|sort %}
                 <li>
-                    <a class="btn btn-outline-primary d-inline-flex align-items-center btn-lg"
+                    <a class="btn btn-outline-secondary d-inline-flex align-items-center btn-lg"
                         href="{{ SITEURL }}/{{ tag.url }}" role="button">
                         <img class="me-2" src="../images/tags/{{tag}}.png" style="height: 1.2em">{{ tag }}</a>
                 </li>

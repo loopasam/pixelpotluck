@@ -20,11 +20,8 @@ https://tiny-img.com/blog/best-image-size-for-website/
 
 # TODO
 
-- Images workflow
-- proper naming and sizing for images, including logo
+- proper naming, sizing and optimization for logo and icons
 - Create 4 articles to test pagination
-- Style text for tags and articles
-- optimize logos and images
 
 
 - FAQ: Write the page and decide on the content
@@ -39,6 +36,6 @@ https://tiny-img.com/blog/best-image-size-for-website/
 # Workflow
 
 - Create the article template from existing article
-- Generate the images using DALL-E 3: I need 4 images for a baba ganush recipe with ratio 3:2. The style is pixel art and the background should be filled and not left empty
+- Generate the images using DALL-E 3: I need an image for a baba ganush recipe with ratio 16:9 in pixel art style. Provide multiple images for me to choose from.
+- 1280 x 720 pixels in GIMP
 - https://tinypng.com/
-- 1280 x 720 pixels
