@@ -1,6 +1,6 @@
 AUTHOR = 'loopasam'
 SITENAME = 'Pixel Potluck'
-SITEURL = ''
+SITEURL = 'https://loopasam.github.io/pixelpotluck/'
 
 PATH = 'content'
 OUTPUT_PATH = 'docs/'
