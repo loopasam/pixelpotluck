@@ -3,6 +3,8 @@ SITENAME = 'Pixel Potluck'
 SITEURL = ''
 
 PATH = 'content'
+OUTPUT_PATH = 'docs/'
+
 
 # STATIC_PATHS = ['images', 'themes/simple-pixelpotluck/static']
 
