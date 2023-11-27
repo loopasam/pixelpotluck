@@ -4,5 +4,15 @@ Slug: faq
 image: faq.png
 Summary: A brief summary of the page content.
 
-Foo bar about the website. You have questions
+You have questions
 about the website? Here are some answers.
+
+- Site philosophy
+- Planning requirements
+- Mise en place and preparation
+
+
+### How do I submit a recipe?
+
+You can submit a recipe by sending an email
+
