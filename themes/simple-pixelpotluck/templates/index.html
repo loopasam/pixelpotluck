@@ -7,7 +7,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             {% for article in articles_page.object_list %}
             <div class="col">
-                <a href="{{ SITEURL }}/{{ article.slug }}" rel="bookmark"
+                <a href="{{ SITEURL }}/recipes/{{ article.slug }}" rel="bookmark"
                     title="Permalink to {{ article.title|striptags }}">
                     <article class="card text-courgette border-5 border-white bg-light shadow-lg">
                         <img src="{{ SITEURL }}/images/{{article.image}}" class="card-img-top img-fluid"

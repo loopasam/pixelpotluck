@@ -2,6 +2,18 @@ AUTHOR = 'loopasam'
 SITENAME = 'Pixel Potluck'
 SITEURL = ''
 
+ARTICLE_URL = 'recipes/{slug}/'
+ARTICLE_SAVE_AS = 'recipes/{slug}/index.html'
+
+PAGE_URL = 'pages/{slug}/'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
+
+TAG_URL = 'tags/{slug}/'
+TAG_SAVE_AS = 'tags/{slug}/index.html'
+
+TAGS_URL = 'tags/'
+TAGS_SAVE_AS = 'tags/index.html'
+
 PATH = 'content'
 
 
