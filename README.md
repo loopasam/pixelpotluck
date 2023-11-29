@@ -10,12 +10,12 @@ https://github.com/pelican-plugins/yaml-metadata
 # TODO
 
 - FAQ: Write the page and decide on the content
-
 - Reference articles types, should be pages, but can have a different name
 - Search
 - RSS
 - Sitemap
 - Robots.txt
+- auto sync htdocs
 
 # Workflow
 
@@ -23,3 +23,4 @@ https://github.com/pelican-plugins/yaml-metadata
 - Generate the images using DALL-E 3: I need an image for a baba ganush recipe with ratio 16:9 in pixel art style. Provide multiple images for me to choose from.
 - 1280 x 720 pixels in GIMP
 - https://tinypng.com/
+

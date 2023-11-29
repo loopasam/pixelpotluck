@@ -7,12 +7,8 @@ Summary: A brief summary of the page content.
 You have questions
 about the website? Here are some answers.
 
+## Topics to be covered
+
 - Site philosophy
 - Planning requirements
 - Mise en place and preparation
-
-
-### How do I submit a recipe?
-
-You can submit a recipe by sending an email
-

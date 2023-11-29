@@ -44,11 +44,11 @@
             <div class="mt-4 row no-gutters">
               <div class="col-md-6 border-end">
                 <h3 class="d-inline-flex align-items-center">
-                  <img class="me-2 icon" src="{{ SITEURL }}/images/icons/basket.png">Ingredients
+                  <img class="me-2 icon" src="{{ SITEURL }}/images/icons/basket.png">🧺 Ingredients
                 </h3>
                 <ul>
                   {% for ingredient in article.ingredients %}
-                  <li>{{ ingredient }}</li>
+                  <li class="mb-2">{{ ingredient }}</li>
                   {% endfor %}
                 </ul>
               </div>
@@ -58,7 +58,7 @@
                 </h3>
                 <ol>
                   {% for step in article.steps %}
-                  <li>{{ step }}</li>
+                  <li class="mb-2">{{ step }}</li>
                   {% endfor %}
                 </ol>
                 <h3 class="d-inline-flex align-items-center">
@@ -66,7 +66,7 @@
                 </h3>
                 <ul>
                   {% for note in article.notes %}
-                  <li>{{ note }}</li>
+                  <li class="mb-2">{{ note }}</li>
                   {% endfor %}
                 </ul>
               </div>
