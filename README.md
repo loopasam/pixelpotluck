@@ -11,7 +11,7 @@ https://github.com/pelican-plugins/yaml-metadata
 
 - FAQ: Write the page and decide on the content
 
-- Reference articles types
+- Reference articles types, should be pages, but can have a different name
 - Search
 - RSS
 - Sitemap
