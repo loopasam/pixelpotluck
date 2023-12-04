@@ -12,3 +12,5 @@ about the website? Here are some answers.
 - Site philosophy
 - Planning requirements
 - Mise en place and preparation
+- cooking heat levels
+- 

@@ -20,7 +20,8 @@ https://github.com/pelican-plugins/yaml-metadata
 # Workflow
 
 - Create the article template from existing article
-- Generate the images using DALL-E 3: I need an image for a baba ganush recipe with ratio 16:9 in pixel art style. Provide multiple images for me to choose from.
+- Generate the images using DALL-E 3:
+I need an image for a baba ganush recipe with ratio 16:9 in pixel art style. Provide multiple images for me to choose from.
 - 1280 x 720 pixels in GIMP
 - https://tinypng.com/
 
