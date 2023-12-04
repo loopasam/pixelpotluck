@@ -10,7 +10,7 @@ https://github.com/pelican-plugins/yaml-metadata
 # TODO
 
 - FAQ: Write the page and decide on the content
-- Reference articles types, should be pages, but can have a different name
+- Reference articles types, should be pages, but can have a different name?
 - Search
 - RSS
 - Sitemap

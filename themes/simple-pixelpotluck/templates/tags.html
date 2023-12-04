@@ -11,7 +11,7 @@
             <ul class="tagcloud">
                 {% for tag, articles in tags|sort %}
                 <li>
-                    <a class="btn btn-outline-secondary d-inline-flex align-items-center btn-lg" href="{{ SITEURL }}/{{ tag.url }}" role="button">{{ tag }}</a>
+                    <a class="btn btn-outline-secondary d-inline-flex align-items-center btn-lg mb-3 me-3" href="{{ SITEURL }}/{{ tag.url }}" role="button">{{ tag }}</a>
                 </li>
                 {% endfor %}
             </ul>
