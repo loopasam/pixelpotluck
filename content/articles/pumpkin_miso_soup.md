@@ -25,6 +25,7 @@ steps:
 - In a large pot, heat toasted sesame oil over medium heat 🏺. Add chopped onion 🧅, minced garlic 🧄, and grated ginger 💛. Sauté until the onion 🧅 is translucent, for about 5 minutes.
 - Stir in pumpkin puree 🎃 and vegetable broth 🌱. Bring the mixture to a boil. Reduce heat to a simmer.
 - Add soy sauce 🍶 and miso paste 🥄 into the pot. Be careful not to boil the soup after adding miso to preserve its flavor and probiotic qualities.
+- Blend the soup with an immersion blender until smooth.
 - Let the soup simmer for about 20 minutes. Season with salt 🧂 and pepper 🌑 to taste.
 - Serve hot, garnished with sliced green onions 🟢 or nori strips 🟢 if desired.
 notes:
