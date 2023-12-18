@@ -26,3 +26,8 @@ I need an image for this recipe with ratio 16:9 in pixel art style. Provide mult
 - 1280 x 720 pixels in GIMP
 - https://tinypng.com/
 
+# Pipeline
+
+- pancakes
+- mediterranean fish
+- tagine
