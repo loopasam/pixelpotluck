@@ -2,49 +2,29 @@
 title: Pancakes
 slug: pancakes
 image: pancakes.png
-description: Start your morning with these light and fluffy classic pancakes! Perfect for a lazy Sunday breakfast or a quick weekday treat, these pancakes are sure to delight everyone at your table. Serve them hot with your favorite toppings for a breakfast that's both comforting and delicious.
-servings: Makes about 8 pancakes
+description: Perfect for a lazy Sunday breakfast or a quick weekday treat, these pancakes are sure to delight everyone at your table. Serve them hot with your favorite toppings for a breakfast that's both comforting and delicious.
+servings: Makes about 8 to 10 pancakes
 planning: "No"
 tags:
-  - 🍳 breakfast 
-date: 2023-12-13
+  - 🌅 breakfast 
+date: 2023-12-20
 ingredients:
-  - 1/2 cup extra virgin olive oil 🏺
-  - 1/2 cup balsamic vinegar 🍇
-  - 2 teaspoons dijon mustard 🟡
-  - 1 lemon, zest and juice 🍋
-  - 1 teaspoon garlic powder 🧄
-  - 1 tablespoon honey 🍯
-  - 1 teaspoon salt 🧂
-  - 1/4 teaspoon black pepper 🌑
-  - 2 teaspoons dried oregano 🌿
-
-1 ½ cups all-purpose flour
-3 ½ teaspoons baking powder
-1 tablespoon white sugar
-¼ teaspoon salt, or more to taste
-1 ¼ cups milk
-3 tablespoons butter, melted
-1 egg
-
-1 ½ cups all-purpose flour 🌾
-2 tablespoons sugar 🍚
-2 teaspoons baking powder 🥄
-½ teaspoon salt 🧂
-1 ¼ cups milk 🥛
-1 egg 🥚
-3 tablespoons melted butter 🧈
-1 teaspoon vanilla extract (optional) 🌿
-
-
-
+- 1 ½ cups all-purpose flour 🌾
+- 3 ½ teaspoons baking powder 🥄
+- 1 tablespoon white sugar 🍚
+- ¼ teaspoon salt 🧂
+- 1 ¼ cups milk 🥛
+- 3 tablespoons butter, melted 🧈
+- 1 egg 🥚
 steps:
-
-- Whisk together all the ingredients (🏺, 🍇, 🍋, 🟡, 🧄, 🍯, 🧂, 🌑, 🌿).
-- Shake well before using if separated.
-
-
+- Whisk together all the dry ingredients (🌾, 🥄, 🍚, 🧂).
+- Add to the bowl all the wet ingredients (🥛, 🧈, 🥚).
+- Whisk until smooth.
+- Heat a lightly oiled griddle or frying pan over medium high heat.
+- Pour or scoop the batter onto the griddle, using approximately ¼ cup for each pancake.
+- Brown on both sides (2-3 minutes) and serve hot.
 notes:
-  - Store in an airtight container in the refrigerator for up to 2 weeks.
-  - Use a sauce squeeze bottle for easy dispensing and storing.
+  - Add your favorite sliced fruit to the batter for a fruity twist.
+  - Add a dash of vanilla extract to the batter for a sweet twist.
+  - Add a dash of cocoa powder or chocolate chunks to the batter for a chocolatey twist.
 ---
