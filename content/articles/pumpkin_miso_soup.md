@@ -9,6 +9,7 @@ tags:
   - 🍲 soup
   - 🍂 fall
   - 🧊 freeze it
+  - 🌱 vegetarian
 date: 2023-12-04
 ingredients:
   - 1 tablespoon toasted sesame oil 🏺
