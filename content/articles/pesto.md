@@ -8,22 +8,20 @@ planning: "No"
 tags:
   - 🥣 dip
   - 🥘 sauce
-date: 2024-01-25
+date: 2024-02-02
 ingredients:
-  - 1 can chickpeas (400 g), rinsed and drained 🥫
-  - 2 lemon, juice 🍋
-  - 1 garlic clove 🧄
-  - 1/2 teaspoon fine sea salt 🧂
-  - 1/2 cup tahini 🥄
-  - 2 tablespoons water 💧
-  - 1/2 teaspoon ground cumin 🌿
-  - 1 tablespoon extra-virgin olive oil 🏺
+- 2 cups fresh basil leaves, packed 🌿
+- 1/2 cup grated Parmesan cheese 🧀
+- 1/2 cup extra virgin olive oil 🏺
+- 1/3 cup pine nuts (or walnuts) 🌰
+- 3 cloves garlic 🧄
+- 1/4 teaspoon salt 🧂
+- 1/8 teaspoon ground black pepper 🌑
 
 steps:
   - Place all the ingredients in a food processor (🥫, 🍋, 🧄, 🥄, 🧂, 💧, 🌿, 🏺). Pulse until smooth.
   - If the hummus is too thick, add water 💧 one tablespoon at a time until desired consistency is reached. Taste and adjust seasoning if needed.
   - Transfer to a serving dish. Drizzle with olive oil 🏺.
-
 
 notes:
   - Can be stored in an airtight container in the refrigerator for up to a week.
