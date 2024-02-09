@@ -2,7 +2,7 @@
 
 pelican content -s pelicanconf.py --autoreload --listen --debug
 
-pelican content -s publishconf.py
+pelican content -d -s publishconf.py
 
 https://github.com/pelican-plugins/yaml-metadata
 
