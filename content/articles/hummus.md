@@ -6,9 +6,9 @@ description: A classic recipe combines chickpeas, tahini, lemon, and garlic to c
 servings: A large bowl, enough for 4 people
 planning: "No"
 tags:
-  - 🥣 dip
-  - 🐪 Middle East
-  - 🌱 vegetarian
+- 🥣 dip
+- 🌊 Mediterranean
+- 🌱 vegetarian
 date: 2024-01-08
 ingredients:
   - 1 can chickpeas (400 g), rinsed and drained 🥫

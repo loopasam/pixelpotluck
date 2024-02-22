@@ -6,9 +6,9 @@ description: Baba Ganoush, a delightful Middle Eastern dip, is renowned for its 
 servings: A large bowl, enough for 4 people
 planning: "Yes"
 tags:
-  - 🥣 dip
-  - 🐪 Middle East
-  - 🌱 vegetarian
+- 🥣 dip
+- 🌊 Mediterranean
+- 🌱 vegetarian
 date: 2023-10-18
 ingredients:
   - 2 medium eggplants 🍆

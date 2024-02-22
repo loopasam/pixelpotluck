@@ -7,6 +7,7 @@ servings: 4 servings
 planning: "Yes"
 tags:
   - 🐟 fish 
+  - 🌊 Mediterranean
 date: 2024-02-09
 ingredients:
 - 4 white fish fillets (e.g. cod, halibut, or sea bass) 🐟
