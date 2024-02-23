@@ -1,7 +1,7 @@
 ---
 title: Tzatziki
 slug: tzatziki
-image: tzatziki.png
+image: tzatziki.webp
 description: Tzatziki is a refreshing and creamy Greek sauce or dip that's perfect for summer meals. It's a delicious accompaniment to grilled meats, vegetables, or simply as a dip with pita bread.
 servings: A large bowl, enough for 4 people
 planning: "No"
