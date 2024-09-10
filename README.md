@@ -4,6 +4,10 @@ pelican content -s pelicanconf.py --autoreload --listen --debug
 
 pelican content -d -s publishconf.py
 
+# New settings test
+
+pelican content -d -s publishconf_test.py
+
 https://github.com/pelican-plugins/yaml-metadata
 
 
